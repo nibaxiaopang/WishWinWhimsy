@@ -29,6 +29,7 @@
 		FF4ED1F02CD39C3E00F1A9ED /* WishWinPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1EF2CD39C3E00F1A9ED /* WishWinPolicyVC.swift */; };
 		FF4ED1F22CD39CF700F1A9ED /* WishWinAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1F12CD39CF700F1A9ED /* WishWinAboutVC.swift */; };
 		FF4ED1F42CD39D2100F1A9ED /* WishWinTermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1F32CD39D2100F1A9ED /* WishWinTermsVC.swift */; };
+		FF4ED1F82CD3A0B000F1A9ED /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1F72CD3A0B000F1A9ED /* UIViewController+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,10 @@
 		FF4ED1EF2CD39C3E00F1A9ED /* WishWinPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinPolicyVC.swift; sourceTree = "<group>"; };
 		FF4ED1F12CD39CF700F1A9ED /* WishWinAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinAboutVC.swift; sourceTree = "<group>"; };
 		FF4ED1F32CD39D2100F1A9ED /* WishWinTermsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinTermsVC.swift; sourceTree = "<group>"; };
+		FF4ED1F52CD39F6300F1A9ED /* WishWinWhimsy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WishWinWhimsy.entitlements; sourceTree = "<group>"; };
+		FF4ED1F62CD3A0B000F1A9ED /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		FF4ED1F72CD3A0B000F1A9ED /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		FF4ED1F92CD3A0B100F1A9ED /* WishWinWhimsy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WishWinWhimsy-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,7 @@
 		FF4ED1CD2CD3955400F1A9ED /* WishWinWhimsy */ = {
 			isa = PBXGroup;
 			children = (
+				FF4ED1F52CD39F6300F1A9ED /* WishWinWhimsy.entitlements */,
 				FF4ED1C42CD3955400F1A9ED /* AppDelegate.swift */,
 				FF4ED1CB2CD3955400F1A9ED /* SceneDelegate.swift */,
 				FF4ED1C52CD3955400F1A9ED /* Assets.xcassets */,
@@ -132,6 +138,9 @@
 				FF4ED1E72CD39B0B00F1A9ED /* UIStackView+ex.swift */,
 				FF4ED1E92CD39B1900F1A9ED /* UIViewController+ex.swift */,
 				FF4ED1EB2CD39B2B00F1A9ED /* UIView+ex.swift */,
+				FF4ED1F62CD3A0B000F1A9ED /* UIViewController+Extension.h */,
+				FF4ED1F72CD3A0B000F1A9ED /* UIViewController+Extension.m */,
+				FF4ED1F92CD3A0B100F1A9ED /* WishWinWhimsy-Bridging-Header.h */,
 			);
 			path = WishWinWhimsy;
 			sourceTree = "<group>";
@@ -147,6 +156,7 @@
 				FF4ED1A82CD3953D00F1A9ED /* Sources */,
 				FF4ED1A92CD3953D00F1A9ED /* Frameworks */,
 				FF4ED1AA2CD3953D00F1A9ED /* Resources */,
+				400F4C71B8A33E51FE123917 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +179,7 @@
 				TargetAttributes = {
 					FF4ED1AB2CD3953D00F1A9ED = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -204,6 +215,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		400F4C71B8A33E51FE123917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WishWinWhimsy/Pods-WishWinWhimsy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WishWinWhimsy/Pods-WishWinWhimsy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WishWinWhimsy/Pods-WishWinWhimsy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		691981047C220BA22403A138 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,6 +278,7 @@
 				FF4ED1F02CD39C3E00F1A9ED /* WishWinPolicyVC.swift in Sources */,
 				FF4ED1EA2CD39B1F00F1A9ED /* UIViewController+ex.swift in Sources */,
 				FF4ED1DC2CD39A5800F1A9ED /* WishWinCardGameVC.swift in Sources */,
+				FF4ED1F82CD3A0B000F1A9ED /* UIViewController+Extension.m in Sources */,
 				FF4ED1D42CD3955400F1A9ED /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +311,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WishWinWhimsy/WishWinWhimsy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WishWinWhimsy/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Wish Win Whimsy";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Wish Win Whimsy needs access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Wish Win Whimsy needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Wish Win Whimsy needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Wish Win Whimsy would like permission to access your device information to help personalize your experience and improve app functionality through data analysis.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -298,11 +334,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.WishWinWhimsy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poker.WishWinWhimsy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WishWinWhimsy/WishWinWhimsy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -314,11 +352,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WishWinWhimsy/WishWinWhimsy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WishWinWhimsy/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Wish Win Whimsy";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Wish Win Whimsy needs access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Wish Win Whimsy needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Wish Win Whimsy needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Wish Win Whimsy would like permission to access your device information to help personalize your experience and improve app functionality through data analysis.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,11 +375,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.WishWinWhimsy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poker.WishWinWhimsy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WishWinWhimsy/WishWinWhimsy-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

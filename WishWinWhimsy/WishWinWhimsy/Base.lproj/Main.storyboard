@@ -941,6 +941,7 @@ PLAYER</string>
                                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="pokerListsAction:" destination="kio-Ew-9Gc" eventType="touchUpInside" id="qsD-yF-NIQ"/>
                                                     <segue destination="r0p-G4-Mql" kind="push" id="5tN-j1-dG9"/>
                                                 </connections>
                                             </button>
@@ -1215,7 +1216,7 @@ PLAYER</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </stackView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Cev-NU-38x">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Cev-NU-38x">
                                 <rect key="frame" x="416" y="186.66666666666666" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
@@ -1243,6 +1244,9 @@ PLAYER</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5MS-lS-Jbx"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Cev-NU-38x" id="zTt-9x-9vX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zYf-8j-Fof" sceneMemberID="firstResponder"/>
             </objects>
@@ -2006,9 +2010,6 @@ PLAYER</string>
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Wax-ab-Qd3">
-                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
-                            </imageView>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DAx-bt-Xmf">
                                 <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2018,7 +2019,7 @@ PLAYER</string>
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFh-l4-aj2">
-                                <rect key="frame" x="30" y="30" width="60" height="60"/>
+                                <rect key="frame" x="79" y="30" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="2lr-eP-gRV"/>
                                     <constraint firstAttribute="height" constant="60" id="XZg-U5-eeI"/>
@@ -2042,21 +2043,22 @@ PLAYER</string>
                         <viewLayoutGuide key="safeArea" id="P4g-eR-wTU"/>
                         <color key="backgroundColor" name="bg"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Wax-ab-Qd3" secondAttribute="trailing" id="5JG-UC-eBu"/>
+                            <constraint firstItem="aFh-l4-aj2" firstAttribute="leading" secondItem="P4g-eR-wTU" secondAttribute="leading" constant="20" id="ChN-LY-9Cp"/>
                             <constraint firstItem="DAx-bt-Xmf" firstAttribute="leading" secondItem="8Mr-XZ-xr7" secondAttribute="leading" id="IH0-Cp-GBC"/>
                             <constraint firstItem="DAx-bt-Xmf" firstAttribute="top" secondItem="8Mr-XZ-xr7" secondAttribute="top" id="K6u-zf-Ulh"/>
-                            <constraint firstItem="Wax-ab-Qd3" firstAttribute="leading" secondItem="8Mr-XZ-xr7" secondAttribute="leading" id="Thr-xF-Wr1"/>
                             <constraint firstItem="Rv9-IN-kdp" firstAttribute="centerX" secondItem="8Mr-XZ-xr7" secondAttribute="centerX" id="aEf-vt-vlU"/>
                             <constraint firstItem="aFh-l4-aj2" firstAttribute="top" secondItem="8Mr-XZ-xr7" secondAttribute="top" constant="30" id="bHi-At-vXo"/>
-                            <constraint firstItem="Wax-ab-Qd3" firstAttribute="top" secondItem="8Mr-XZ-xr7" secondAttribute="top" id="c15-Xq-mJY"/>
-                            <constraint firstAttribute="bottom" secondItem="Wax-ab-Qd3" secondAttribute="bottom" id="fCa-De-8TS"/>
                             <constraint firstAttribute="trailing" secondItem="DAx-bt-Xmf" secondAttribute="trailing" id="gH8-9I-zpz"/>
-                            <constraint firstItem="aFh-l4-aj2" firstAttribute="leading" secondItem="8Mr-XZ-xr7" secondAttribute="leading" constant="30" id="hUe-0s-YN4"/>
                             <constraint firstAttribute="bottom" secondItem="DAx-bt-Xmf" secondAttribute="bottom" id="ius-d7-FUe"/>
                             <constraint firstItem="Rv9-IN-kdp" firstAttribute="centerY" secondItem="8Mr-XZ-xr7" secondAttribute="centerY" id="sfL-74-EPY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gun-Ke-GZ9"/>
+                    <connections>
+                        <outlet property="backBtn" destination="aFh-l4-aj2" id="Ztp-vR-lhL"/>
+                        <outlet property="indView" destination="Rv9-IN-kdp" id="Qdd-3w-bCS"/>
+                        <outlet property="webView" destination="DAx-bt-Xmf" id="JFd-M6-5MN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RJQ-rF-4OB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

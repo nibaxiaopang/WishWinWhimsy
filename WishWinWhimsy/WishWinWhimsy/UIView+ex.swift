@@ -2,7 +2,7 @@
 //  UIView+ex.swift
 //  WishWinWhimsy
 //
-//  Created by jin fu on 2024/10/31.
+//  Created by WishWinWhimsy on 2024/10/31.
 //
 
 import UIKit
