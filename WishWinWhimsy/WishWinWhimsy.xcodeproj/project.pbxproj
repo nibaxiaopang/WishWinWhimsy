@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A24A43F2AB75FEBDF734EB0 /* Pods_WishWinWhimsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FC634FC7F4E91313230138 /* Pods_WishWinWhimsy.framework */; };
+		FF4ED1CE2CD3955400F1A9ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4ED1C52CD3955400F1A9ED /* Assets.xcassets */; };
+		FF4ED1D02CD3955400F1A9ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4ED1C82CD3955400F1A9ED /* LaunchScreen.storyboard */; };
+		FF4ED1D12CD3955400F1A9ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4ED1CA2CD3955400F1A9ED /* Main.storyboard */; };
+		FF4ED1D22CD3955400F1A9ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1C42CD3955400F1A9ED /* AppDelegate.swift */; };
+		FF4ED1D32CD3955400F1A9ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1CB2CD3955400F1A9ED /* SceneDelegate.swift */; };
+		FF4ED1D42CD3955400F1A9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1CC2CD3955400F1A9ED /* ViewController.swift */; };
+		FF4ED1D62CD3973100F1A9ED /* WishWinHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1D52CD3973000F1A9ED /* WishWinHomeVC.swift */; };
+		FF4ED1D82CD39A3D00F1A9ED /* WishWinAddPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1D72CD39A3400F1A9ED /* WishWinAddPlayerVC.swift */; };
+		FF4ED1DA2CD39A4700F1A9ED /* WishWinPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1D92CD39A4600F1A9ED /* WishWinPlayerModel.swift */; };
+		FF4ED1DC2CD39A5800F1A9ED /* WishWinCardGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1DB2CD39A5700F1A9ED /* WishWinCardGameVC.swift */; };
+		FF4ED1DE2CD39A6B00F1A9ED /* WishWinHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1DD2CD39A6A00F1A9ED /* WishWinHistoryVC.swift */; };
+		FF4ED1E02CD39A7900F1A9ED /* WishWinHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1DF2CD39A7700F1A9ED /* WishWinHistoryCell.swift */; };
+		FF4ED1E22CD39A9000F1A9ED /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1E12CD39A8F00F1A9ED /* Untitled.swift */; };
+		FF4ED1E42CD39AA500F1A9ED /* WishWinCardsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1E32CD39AA400F1A9ED /* WishWinCardsListVC.swift */; };
+		FF4ED1E62CD39ACD00F1A9ED /* WishWinCardsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1E52CD39AC400F1A9ED /* WishWinCardsListCell.swift */; };
+		FF4ED1E82CD39B0D00F1A9ED /* UIStackView+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1E72CD39B0B00F1A9ED /* UIStackView+ex.swift */; };
+		FF4ED1EA2CD39B1F00F1A9ED /* UIViewController+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1E92CD39B1900F1A9ED /* UIViewController+ex.swift */; };
+		FF4ED1EC2CD39B2D00F1A9ED /* UIView+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1EB2CD39B2B00F1A9ED /* UIView+ex.swift */; };
+		FF4ED1F02CD39C3E00F1A9ED /* WishWinPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1EF2CD39C3E00F1A9ED /* WishWinPolicyVC.swift */; };
+		FF4ED1F22CD39CF700F1A9ED /* WishWinAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1F12CD39CF700F1A9ED /* WishWinAboutVC.swift */; };
+		FF4ED1F42CD39D2100F1A9ED /* WishWinTermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED1F32CD39D2100F1A9ED /* WishWinTermsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF052CFC7B624D34EE0B3537 /* Pods-WishWinWhimsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishWinWhimsy.debug.xcconfig"; path = "Target Support Files/Pods-WishWinWhimsy/Pods-WishWinWhimsy.debug.xcconfig"; sourceTree = "<group>"; };
+		D6FC634FC7F4E91313230138 /* Pods_WishWinWhimsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WishWinWhimsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3601ECC46180BF756D541D1 /* Pods-WishWinWhimsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WishWinWhimsy.release.xcconfig"; path = "Target Support Files/Pods-WishWinWhimsy/Pods-WishWinWhimsy.release.xcconfig"; sourceTree = "<group>"; };
+		FF4ED1AC2CD3953D00F1A9ED /* WishWinWhimsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishWinWhimsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4ED1C42CD3955400F1A9ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF4ED1C52CD3955400F1A9ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4ED1C62CD3955400F1A9ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4ED1C72CD3955400F1A9ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF4ED1C92CD3955400F1A9ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4ED1CB2CD3955400F1A9ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF4ED1CC2CD3955400F1A9ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF4ED1D52CD3973000F1A9ED /* WishWinHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinHomeVC.swift; sourceTree = "<group>"; };
+		FF4ED1D72CD39A3400F1A9ED /* WishWinAddPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinAddPlayerVC.swift; sourceTree = "<group>"; };
+		FF4ED1D92CD39A4600F1A9ED /* WishWinPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinPlayerModel.swift; sourceTree = "<group>"; };
+		FF4ED1DB2CD39A5700F1A9ED /* WishWinCardGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinCardGameVC.swift; sourceTree = "<group>"; };
+		FF4ED1DD2CD39A6A00F1A9ED /* WishWinHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinHistoryVC.swift; sourceTree = "<group>"; };
+		FF4ED1DF2CD39A7700F1A9ED /* WishWinHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinHistoryCell.swift; sourceTree = "<group>"; };
+		FF4ED1E12CD39A8F00F1A9ED /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		FF4ED1E32CD39AA400F1A9ED /* WishWinCardsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinCardsListVC.swift; sourceTree = "<group>"; };
+		FF4ED1E52CD39AC400F1A9ED /* WishWinCardsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinCardsListCell.swift; sourceTree = "<group>"; };
+		FF4ED1E72CD39B0B00F1A9ED /* UIStackView+ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ex.swift"; sourceTree = "<group>"; };
+		FF4ED1E92CD39B1900F1A9ED /* UIViewController+ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ex.swift"; sourceTree = "<group>"; };
+		FF4ED1EB2CD39B2B00F1A9ED /* UIView+ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ex.swift"; sourceTree = "<group>"; };
+		FF4ED1EF2CD39C3E00F1A9ED /* WishWinPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinPolicyVC.swift; sourceTree = "<group>"; };
+		FF4ED1F12CD39CF700F1A9ED /* WishWinAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinAboutVC.swift; sourceTree = "<group>"; };
+		FF4ED1F32CD39D2100F1A9ED /* WishWinTermsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishWinTermsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4ED1A92CD3953D00F1A9ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A24A43F2AB75FEBDF734EB0 /* Pods_WishWinWhimsy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C47A58267013BBDDE7CC9EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6FC634FC7F4E91313230138 /* Pods_WishWinWhimsy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F8788B88BCE97FEB4157F18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF052CFC7B624D34EE0B3537 /* Pods-WishWinWhimsy.debug.xcconfig */,
+				E3601ECC46180BF756D541D1 /* Pods-WishWinWhimsy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF4ED1A32CD3953D00F1A9ED = {
+			isa = PBXGroup;
+			children = (
+				FF4ED1CD2CD3955400F1A9ED /* WishWinWhimsy */,
+				FF4ED1AD2CD3953D00F1A9ED /* Products */,
+				9F8788B88BCE97FEB4157F18 /* Pods */,
+				1C47A58267013BBDDE7CC9EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4ED1AD2CD3953D00F1A9ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4ED1AC2CD3953D00F1A9ED /* WishWinWhimsy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4ED1CD2CD3955400F1A9ED /* WishWinWhimsy */ = {
+			isa = PBXGroup;
+			children = (
+				FF4ED1C42CD3955400F1A9ED /* AppDelegate.swift */,
+				FF4ED1CB2CD3955400F1A9ED /* SceneDelegate.swift */,
+				FF4ED1C52CD3955400F1A9ED /* Assets.xcassets */,
+				FF4ED1C62CD3955400F1A9ED /* Info.plist */,
+				FF4ED1C82CD3955400F1A9ED /* LaunchScreen.storyboard */,
+				FF4ED1CA2CD3955400F1A9ED /* Main.storyboard */,
+				FF4ED1D52CD3973000F1A9ED /* WishWinHomeVC.swift */,
+				FF4ED1EF2CD39C3E00F1A9ED /* WishWinPolicyVC.swift */,
+				FF4ED1F12CD39CF700F1A9ED /* WishWinAboutVC.swift */,
+				FF4ED1F32CD39D2100F1A9ED /* WishWinTermsVC.swift */,
+				FF4ED1CC2CD3955400F1A9ED /* ViewController.swift */,
+				FF4ED1D72CD39A3400F1A9ED /* WishWinAddPlayerVC.swift */,
+				FF4ED1D92CD39A4600F1A9ED /* WishWinPlayerModel.swift */,
+				FF4ED1DB2CD39A5700F1A9ED /* WishWinCardGameVC.swift */,
+				FF4ED1DD2CD39A6A00F1A9ED /* WishWinHistoryVC.swift */,
+				FF4ED1DF2CD39A7700F1A9ED /* WishWinHistoryCell.swift */,
+				FF4ED1E12CD39A8F00F1A9ED /* Untitled.swift */,
+				FF4ED1E32CD39AA400F1A9ED /* WishWinCardsListVC.swift */,
+				FF4ED1E52CD39AC400F1A9ED /* WishWinCardsListCell.swift */,
+				FF4ED1E72CD39B0B00F1A9ED /* UIStackView+ex.swift */,
+				FF4ED1E92CD39B1900F1A9ED /* UIViewController+ex.swift */,
+				FF4ED1EB2CD39B2B00F1A9ED /* UIView+ex.swift */,
+			);
+			path = WishWinWhimsy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4ED1AB2CD3953D00F1A9ED /* WishWinWhimsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4ED1BF2CD3953E00F1A9ED /* Build configuration list for PBXNativeTarget "WishWinWhimsy" */;
+			buildPhases = (
+				691981047C220BA22403A138 /* [CP] Check Pods Manifest.lock */,
+				FF4ED1A82CD3953D00F1A9ED /* Sources */,
+				FF4ED1A92CD3953D00F1A9ED /* Frameworks */,
+				FF4ED1AA2CD3953D00F1A9ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WishWinWhimsy;
+			productName = WishWinWhimsy;
+			productReference = FF4ED1AC2CD3953D00F1A9ED /* WishWinWhimsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4ED1A42CD3953D00F1A9ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FF4ED1AB2CD3953D00F1A9ED = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = FF4ED1A72CD3953D00F1A9ED /* Build configuration list for PBXProject "WishWinWhimsy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4ED1A32CD3953D00F1A9ED;
+			productRefGroup = FF4ED1AD2CD3953D00F1A9ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4ED1AB2CD3953D00F1A9ED /* WishWinWhimsy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4ED1AA2CD3953D00F1A9ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4ED1CE2CD3955400F1A9ED /* Assets.xcassets in Resources */,
+				FF4ED1D02CD3955400F1A9ED /* LaunchScreen.storyboard in Resources */,
+				FF4ED1D12CD3955400F1A9ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		691981047C220BA22403A138 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WishWinWhimsy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4ED1A82CD3953D00F1A9ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4ED1DA2CD39A4700F1A9ED /* WishWinPlayerModel.swift in Sources */,
+				FF4ED1D82CD39A3D00F1A9ED /* WishWinAddPlayerVC.swift in Sources */,
+				FF4ED1D22CD3955400F1A9ED /* AppDelegate.swift in Sources */,
+				FF4ED1E02CD39A7900F1A9ED /* WishWinHistoryCell.swift in Sources */,
+				FF4ED1D62CD3973100F1A9ED /* WishWinHomeVC.swift in Sources */,
+				FF4ED1D32CD3955400F1A9ED /* SceneDelegate.swift in Sources */,
+				FF4ED1F42CD39D2100F1A9ED /* WishWinTermsVC.swift in Sources */,
+				FF4ED1E82CD39B0D00F1A9ED /* UIStackView+ex.swift in Sources */,
+				FF4ED1E42CD39AA500F1A9ED /* WishWinCardsListVC.swift in Sources */,
+				FF4ED1EC2CD39B2D00F1A9ED /* UIView+ex.swift in Sources */,
+				FF4ED1E62CD39ACD00F1A9ED /* WishWinCardsListCell.swift in Sources */,
+				FF4ED1F22CD39CF700F1A9ED /* WishWinAboutVC.swift in Sources */,
+				FF4ED1E22CD39A9000F1A9ED /* Untitled.swift in Sources */,
+				FF4ED1DE2CD39A6B00F1A9ED /* WishWinHistoryVC.swift in Sources */,
+				FF4ED1F02CD39C3E00F1A9ED /* WishWinPolicyVC.swift in Sources */,
+				FF4ED1EA2CD39B1F00F1A9ED /* UIViewController+ex.swift in Sources */,
+				FF4ED1DC2CD39A5800F1A9ED /* WishWinCardGameVC.swift in Sources */,
+				FF4ED1D42CD3955400F1A9ED /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF4ED1C82CD3955400F1A9ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4ED1C72CD3955400F1A9ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF4ED1CA2CD3955400F1A9ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4ED1C92CD3955400F1A9ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4ED1C02CD3953E00F1A9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF052CFC7B624D34EE0B3537 /* Pods-WishWinWhimsy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WishWinWhimsy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Wish Win Whimsy";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WishWinWhimsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF4ED1C12CD3953E00F1A9ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3601ECC46180BF756D541D1 /* Pods-WishWinWhimsy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WishWinWhimsy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Wish Win Whimsy";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WishWinWhimsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FF4ED1C22CD3953E00F1A9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF4ED1C32CD3953E00F1A9ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4ED1A72CD3953D00F1A9ED /* Build configuration list for PBXProject "WishWinWhimsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4ED1C22CD3953E00F1A9ED /* Debug */,
+				FF4ED1C32CD3953E00F1A9ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4ED1BF2CD3953E00F1A9ED /* Build configuration list for PBXNativeTarget "WishWinWhimsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4ED1C02CD3953E00F1A9ED /* Debug */,
+				FF4ED1C12CD3953E00F1A9ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4ED1A42CD3953D00F1A9ED /* Project object */;
+}
